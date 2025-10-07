@@ -16,6 +16,16 @@ https://www.loom.com/share/b70a8a268d5e42929ff18ecc8cbbc8e2?sid=4f81609b-b814-4d
 
 ## **Installation et lancement**
 
+## ⚙️ Configuration (.env)
+
+Avant de lancer le backend, créez un fichier `.env` à la racine du dossier `backend` avec le contenu suivant :
+
+```env
+MONGODB_URI=mongodb+srv://hakimhakim2206_db_user:50lJJsHW6e7SsFEw@test-lesbonsartisans.lznvu10.mongodb.net/?retryWrites=true&w=majority&appName=test-lesbonsartisans
+PORT=3000
+JWT_SECRET=q4Xp9M7tQzsKHLVrfvN28eYpCRa5SWxDjZ82FvQn1kTGb0aO
+```
+
 ## _Lancer le backend_
 
 ```
